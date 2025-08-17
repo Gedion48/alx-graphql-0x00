@@ -1,16 +1,14 @@
-# Character Queries
+## Characters List (Paginated)
 
-This directory contains GraphQL queries to fetch specific character details from the Rick and Morty GraphQL API.
+This section contains GraphQL queries and outputs to fetch a paginated list of characters.
 
 **Endpoint:** https://rickandmortyapi.com/graphql
 
-**Fields retrieved:**
+**Fields retrieved per character:**
 
 - id
 - name
 - status
-- species
-- type
-- gender
+- image
 
-**Characters fetched:** IDs 1, 2, 3, and 4
+**Pages fetched:** 1, 2, 3, 4
